@@ -19,54 +19,60 @@
 <!---->
     <title>Frontend Mentor | Social proof section</title>
   </head>
-  <body class="flex h-screen flex-col items-center pt-20">
+  <body class="flex h-screen flex-col items-center p-0 md:pt-20">
 
-    <div class="flex items-center w-4/5 md:shrink-0">
+    <div class="flex flex-col md:flex-row  w-4/5 ">
 
-      <div class="flex w-2/4 flex-col">
+      <div class="flex w-full md:w-2/4 flex-col items-center md:items-start">
         <div class="w-3/4">
-          <h1 class="font-bold text-6xl text-[hsl(300_43%_22%)]">10,000+ of our users love our products.</h1>
+          <h1 class="font-bold text-6xl text-center md:text-left text-[hsl(300_43%_22%)]">10,000+ of our users love our products.</h1>
         </div>
-        <div class="w-2/3 m-3">
-          <p>We only provide great products combined with excellent customer service.
+        <div class="w-2/3 mt-3">
+          <p class="text-center md:text-left">We only provide great products combined with excellent customer service.
           See what our satisfied customers are saying about our services.</p>
         </div>
       </div>
   
-      <div class="flex justify-between w-1/2 h-3/4 flex-col">
+      <div class="flex justify-between w-full md:w-1/2 h-full md:h-3/4 flex-col">
 
-        <div class="flex self-start items-center rounded-lg p-3 pr-10 bg-[hsla(303_10%_53%/0.3)]">
-          <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
-          <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
-          <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
-          <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
-          <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+        <div class="flex flex-col md:flex-row w-full self-start md:self-start items-center rounded-lg mb-3 p-3 pr-10 bg-[hsla(303_10%_53%/0.3)]">
+          <div>
+            <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+            <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+            <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+            <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+            <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+          </div>
           <p class="mx-5 font-semibold text-[hsl(300_43%_22%)]">Rated 5 Stars in Reviews</p>
         </div>
 
-        <div class="flex self-center items-center rounded-lg m-2 p-3 pr-10 bg-[hsla(303_10%_53%/0.3)]">
-          <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
-          <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
-          <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
-          <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
-          <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+        <div class="flex flex-col md:flex-row w-full self-start md:self-center items-center rounded-lg mb-3 p-3 pr-10 bg-[hsla(303_10%_53%/0.3)]">
+          <div>
+            <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+            <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+            <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+            <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+            <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+          </div>
           <p class="mx-5 font-semibold text-[hsl(300_43%_22%)]">Rated 5 Stars in Report Guru</p>
         </div>
 
-        <div class="flex self-end items-center rounded-lg m-2 p-3 pr-10 bg-[hsla(303_10%_53%/0.3)]">
-          <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
-          <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
-          <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
-          <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
-          <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+        <div class="flex flex-col md:flex-row w-full self-start md:self-end items-center rounded-lg mb-3 p-3 pr-10 bg-[hsla(303_10%_53%/0.3)]">
+          <div>
+            <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+            <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+            <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+            <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+            <i class="fa-solid fa-star m-0.5" style="color: #ffbb00;"></i>
+          </div>
           <p class="mx-5 font-semibold text-[hsl(300_43%_22%)]">Rated 5 Stars in BestTech</p>
         </div>
       </div>      
     </div>
 
-    <div class="flex mt-6 w-4/5 h-1/2 justify-evenly">
+    <div class="flex flex-col md:flex-row mt-6 w-4/5 h-3/3 md:h-1/2 justify-evenly">
 
-      <div class="flex self-start flex-col items-baseline mr-6 p-4 rounded-xl text-white  bg-[hsl(300_43%_22%)]">
+      <div class="flex self-center md:self-start flex-col items-baseline md:mr-6 mb-3 p-4 rounded-xl text-white  bg-[hsl(300_43%_22%)]">
         <div class="flex items-center m-3">
           <div><img class="h-12 mr-6 rounded-full" src="./images/image-colton.jpg" alt=""></div>
           <div>
@@ -79,7 +85,7 @@
           Excellent!"</p></div>
       </div>
 
-      <div class="flex self-center flex-col items-baseline mr-6 p-4 rounded-xl text-white  bg-[hsl(300_43%_22%)]">
+      <div class="flex self-center flex-col items-baseline md:mr-6 mb-3 p-4 rounded-xl text-white  bg-[hsl(300_43%_22%)]">
         <div class="flex items-center m-3">
           <div><img class="h-12 mr-6 rounded-full" src="./images/image-irene.jpg" alt=""></div>
           <div>
@@ -92,7 +98,7 @@
           Excellent!"</p></div>
       </div>
 
-      <div class="flex self-end flex-col items-baseline p-4 rounded-xl text-white  bg-[hsl(300_43%_22%)]">
+      <div class="flex self-center md:self-end flex-col items-baseline mb-3 p-4 rounded-xl text-white  bg-[hsl(300_43%_22%)]">
         <div class="flex items-center m-3">
           <div><img class="h-12 mr-6 rounded-full" src="./images/image-anne.jpg" alt=""></div>
           <div>
